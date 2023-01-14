@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+.image_fond {
+  background-image: url(assets/images/header-background.jpg);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: center;
+  position: absolute;
+  width: 1512px;
+  height: 765px;
+  left: 0px;
+  top: 3px
+}
+
+.img_logo {
+  position: absolute;
+  width: 163px;
+  height: 33px;
+  left: 117px;
+  top: 52px;
+}
+
+.btn_collection {
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  left: 911px;
+  top: 58px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.btn_company {
+  position: absolute;
+  width: 91px;
+  height: 27px;
+  left: 1103px;
+  top: 58px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+
+}
+
+.btn_contactus {
+  position: absolute;
+  width: 101px;
+  height: 27px;
+  left: 1294px;
+  top: 58px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.Titre {
+  position: absolute;
+  width: 955px;
+  height: 213px;
+  left: 117px;
+  top: 335px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 98px;
+  color: #FFFFFF;
+}
+
+.Ligne_Blanche {
+  position: absolute;
+  width: 1278px;
+  height: 0px;
+  left: 117px;
+  top: 576px;
+  border: 2px solid #FFFFFF;
+
+}
+
+.Main_Section {
+  position: absolute;
+  width: 1512px;
+  height: 872px;
+  left: 0px;
+  top: 768px;
+  background: #F2EFEF;
+}
+
+.Titre2 {
+  position: absolute;
+  width: 400px;
+  height: 420px;
+  padding: 214px 995px 238px 117px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 98px;
+  color: #161618;
+}
+
+.Titre1_2ePage {
+  position: absolute;
+  width: 400px;
+  height: 41px;
+  padding: 219px 145px 612px 967px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #161618;
+}
+
+.Sous_Titre1 {
+  position: absolute;
+  width: 428px;
+  height: 54px;
+  padding: 273px 117px 545px 967px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161618;
+}
+
+.Titre2_2ePage {
+  position: absolute;
+  width: 400px;
+  height: 41px;
+  padding: 384px 135.34px 447px 962.08px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #161618;
+}
+
+.Sous_Titre2 {
+  position: absolute;
+  width: 428px;
+  height: 54px;
+  padding: 438px 117px 380px 969.08px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161618;
+}
+
+.Titre3_2ePage {
+  position: absolute;
+  width: 400px;
+  height: 41px;
+  padding: 549px 135.34px 282px 969.08px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #161618;
+}
+
+.Sous_Titre3 {
+  position: absolute;
+  width: 428px;
+  height: 54px;
+  padding: 603px 117px 215px 969.08px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161618;
+}
+
+.Circle1 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  top: 239px;
+  right: 601px;
+  bottom: 579px;
+  left: 857px;
+}
+
+.Circle2 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  top: 404px;
+  right: 601px;
+  left: 857px;
+  bottom: 414px;
+}
+
+.Circle3 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  top: 569px;
+  right: 601px;
+  left: 857px;
+  bottom: 249px;
+}
+
+.Circle_Number1 {
+  position: absolute;
+  width: 12px;
+  height: 45px;
+  left: 857px;
+  top: 239px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #161618;
+}
+
+.Circle_Number1 {
+  position: absolute;
+  width: 12px;
+  height: 45px;
+  left: 878px;
+  top: 1011px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #161618;
+}
+
+.Circle_Number2 {
+  position: absolute;
+  width: 18.34px;
+  height: 45px;
+  left: 875.34px;
+  top: 1176px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #161618;
+}
