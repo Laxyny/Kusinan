@@ -119,7 +119,7 @@ html {
 }
 
 .Titre {
-  position: absolute;
+  position: relative;
   width: 955px;
   height: 213px;
   left: 117px;
@@ -822,6 +822,8 @@ html {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 1512) {
-  
+@media all and (max-width: 1512px) {
+  .img_logo {
+    display: block;
+  }
 }
