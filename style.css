@@ -23,12 +23,17 @@
   top: 52px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn_collection {
+  text-decoration: none;
   position: absolute;
   width: 92px;
   height: 27px;
   left: 911px;
-  top: 58px;
+  top: 54px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -37,12 +42,28 @@
   color: #FFFFFF;
 }
 
+.btn_collection::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FFFFFF;
+  transition: width 500ms ease-out;
+}
+
+.btn_collection:hover::before {
+  width: 100%;
+}
+
 .btn_company {
+  text-decoration: none;
   position: absolute;
   width: 91px;
   height: 27px;
   left: 1103px;
-  top: 58px;
+  top: 54px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -52,18 +73,49 @@
 
 }
 
+.btn_company::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FFFFFF;
+  transition: width 500ms ease-out;
+}
+
+.btn_company:hover::before {
+  width: 100%;
+}
+
 .btn_contactus {
+  text-decoration: none;
   position: absolute;
   width: 101px;
   height: 27px;
   left: 1294px;
-  top: 58px;
+  top: 54px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
+}
+
+.btn_contactus::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FFFFFF;
+  transition: width 500ms ease-out;
+}
+
+.btn_contactus:hover::before {
+  width: 100%;
 }
 
 .Titre {
@@ -288,8 +340,9 @@
 }
 
 .More_Info {
+  text-decoration: none;
   position: absolute;
-  width: 428px;
+  width: 337px;
   height: 27px;
   left: 967px;
   top: 734px;
@@ -301,7 +354,7 @@
   color: #161618;
 }
 
-.Bar_MI {
+/*.Bar_MI {
   position: absolute;
   width: 337px;
   height: 0px;
@@ -310,6 +363,22 @@
   right: 207px;
   bottom: 101px;
   border: 1px solid #000000;
+  transition: width 500ms ease-out;
+}*/
+
+.More_Info::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 500ms ease-out;
+}
+
+.More_Info:hover::before {
+  width: 100%;
 }
 
 
@@ -335,6 +404,15 @@
   position: absolute;
   width: 504px;
   height: 766px;
+  transition: 500ms all linear;
+}
+
+.Picture1_opacity:hover {
+  background: rgba(0, 0, 0, 0.5) url(assets/images/lamp\ magazine.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: darken;
+  transition: 500ms all linear;
 }
 
 .Picture2_opacity {
@@ -345,6 +423,16 @@
   width: 504px;
   height: 766px;
   left: 504px;
+  transition: 500ms all linear;
+}
+
+.Picture2_opacity:hover {
+  animation-duration: 500ms;
+  background: rgba(0, 0, 0, 0.5) url(assets/images/lamp\ over.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: darken;
+  transition: 500ms all linear;
 }
 
 .Picture3_opacity {
@@ -356,6 +444,16 @@
   height: 766px;
   left: 0px;
   left: 1008px;
+  transition: 500ms all linear;
+}
+
+.Picture3_opacity:hover {
+  animation-duration: 500ms;
+  background: rgba(0, 0, 0, 0.5) url(assets/images/lamp\ sofa.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: darken;
+  transition: 500ms all linear;
 }
 
 .Picture1_opacity_text {
@@ -465,8 +563,11 @@
   left: 213px;
   top: 2691px;
   background: #FFFFFF;
-  box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
   border-radius: 10px;
+}
+
+.YourName_Header:active{
+  border: 2px solid #161618;;
 }
 
 .Gris_text1 {
@@ -508,6 +609,10 @@
   border-radius: 10px;
 }
 
+.YourPhone_Header:active{
+  border: 2px solid #161618;;
+}
+
 .Gris_text2 {
   position: absolute;
   width: 425.92px;
@@ -547,6 +652,10 @@
   border-radius: 10px;
 }
 
+.YourEmail_Header:active{
+  border: 2px solid #161618;;
+}
+
 .Gris_text3 {
   position: absolute;
   width: 425.92px;
@@ -565,33 +674,32 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px, 190px;
-  gap: 10px;
   position: absolute;
   width: 427px;
   height: 47px;
   left: 211px;
   top: 3003px;
   background: #161618;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-}
-
-.Send_mss {
-  position: absolute;
-  width: 47px;
-  height: 27px;
-  right: 190px;
-  left: 190px;
+  text-align: center;
+  padding: 10px 190px 10px 190px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
   color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  transition: 500ms all linear;
+}
+
+.Btn_send:hover {
+  transition: 500ms all linear;
+  background: #FFFFFF;
+  color: #161618;
+  border: 2px solid #FFFFFF;
+}
+
+.Btn_send:active {
+  border-color: #161618;
 }
 
 .Add_Titre {
@@ -711,4 +819,9 @@
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1512) {
+  
 }
