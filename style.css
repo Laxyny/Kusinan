@@ -571,31 +571,26 @@ html {
 
 .YourName_Header {
   position: absolute;
-  width: 428px;
+  width: 410px;
   height: 48px;
-  left: 213px;
+  left: 210px;
   top: 2691px;
   background: #FFFFFF;
   border-radius: 10px;
-}
+  border: 2px solid #FFFFFF;
 
-.YourName_Header:active {
-  border: 2px solid #161618;
-  ;
-}
-
-.Gris_text1 {
-  position: absolute;
-  width: 425.92px;
-  height: 26px;
-  left: 231px;
-  top: 2689px;
+  text-align:left;
+  padding-left: 18px; 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 26px;
   color: #696973;
+}
+
+.YourName_Header:active {
+  border: 2px solid #161618;
 }
 
 .YourPhone {
@@ -614,32 +609,28 @@ html {
 
 .YourPhone_Header {
   position: absolute;
-  width: 428px;
+  width: 408px;
   height: 48px;
-  left: 211px;
+  left: 209px;
   top: 2803px;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
   border-radius: 10px;
-}
+  border: 2px solid #FFFFFF;
 
-.YourPhone_Header:active {
-  border: 2px solid #161618;
-  ;
-}
-
-.Gris_text2 {
-  position: absolute;
-  width: 425.92px;
-  height: 26px;
-  left: 231px;
-  top: 2801px;
+  text-align:left;
+  padding-left: 20px; 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 26px;
   color: #696973;
+}
+
+.YourPhone_Header:active {
+  border: 2px solid #161618;
+  ;
 }
 
 .YourEmail {
@@ -658,13 +649,23 @@ html {
 
 .YourEmail_Header {
   position: absolute;
-  width: 428px;
+  width: 406px;
   height: 48px;
   left: 213px;
   top: 2915px;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
   border-radius: 10px;
+  border: 2px solid #FFFFFF;
+
+  text-align:left;
+  padding-left: 20px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #696973;
 }
 
 .YourEmail_Header:active {
