@@ -16,7 +16,7 @@
 }
 
 .img_logo {
-  position: absolute;
+  position: relative;
   width: 163px;
   height: 33px;
   left: 117px;
@@ -119,11 +119,11 @@ html {
 }
 
 .Titre {
-  position: relative;
+  position: absolute;
   width: 955px;
   height: 213px;
   left: 117px;
-  top: 335px;
+  top: 331px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -139,7 +139,20 @@ html {
   left: 117px;
   top: 576px;
   border: 2px solid #FFFFFF;
+}
 
+.Sous_Texte1 {
+  position: absolute;
+  width: 735px;
+  height: 81px;
+  left: 122px;
+  top: 616px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 
 
@@ -566,8 +579,9 @@ html {
   border-radius: 10px;
 }
 
-.YourName_Header:active{
-  border: 2px solid #161618;;
+.YourName_Header:active {
+  border: 2px solid #161618;
+  ;
 }
 
 .Gris_text1 {
@@ -609,8 +623,9 @@ html {
   border-radius: 10px;
 }
 
-.YourPhone_Header:active{
-  border: 2px solid #161618;;
+.YourPhone_Header:active {
+  border: 2px solid #161618;
+  ;
 }
 
 .Gris_text2 {
@@ -652,8 +667,9 @@ html {
   border-radius: 10px;
 }
 
-.YourEmail_Header:active{
-  border: 2px solid #161618;;
+.YourEmail_Header:active {
+  border: 2px solid #161618;
+  ;
 }
 
 .Gris_text3 {
@@ -823,7 +839,5 @@ html {
 
 /*RESPONSIVE*/
 @media all and (max-width: 1512px) {
-  .img_logo {
-    display: block;
-  }
+  .img_logo {}
 }
