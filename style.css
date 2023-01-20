@@ -3,6 +3,8 @@
   src: url(assets/fonts/Poppins-Medium.ttf) format("truetype");
 }
 
+
+/*1er Page "the best collection of lamp is here"*/
 .image_fond {
   background-image: url(assets/images/header-background.jpg);
   background-size: cover;
@@ -158,7 +160,7 @@ html {
 
 
 
-
+/*2e Page "Why should choose our product"*/
 .Main_Section {
   position: absolute;
   width: 1512px;
@@ -407,7 +409,7 @@ html {
 
 
 
-
+/*3 Images avec opacité*/
 
 .Pictures_3 {
   position: absolute;
@@ -527,7 +529,7 @@ html {
 
 
 
-
+/*Page contact*/
 .Contact {
   position: absolute;
   width: 1512px;
@@ -819,7 +821,7 @@ html {
 
 
 
-
+/*Header copyright*/
 .Copy_Black {
   background-color: #161618;
   background-size: cover;
@@ -848,9 +850,39 @@ html {
 
 /*RESPONSIVE*/
 @media all and (max-width: 1512px) {
-  .image_fond{
+  .image_fond {
     width: 100%;
     height: 100%;
+  }
+
+  .btn_collection {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .btn_company {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .btn_contactus {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
   }
 
   .img_logo {
@@ -859,5 +891,6 @@ html {
     height: auto;
     left: 117px;
     top: 52px;
+    margin: 0 auto;
   }
 }
